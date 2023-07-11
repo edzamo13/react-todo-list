@@ -36,11 +36,11 @@ function TodoForm() {
           type="button"
           className="TodoForm-button TodoForm-button--cancel"
           onClick={onCancel}
-        >Cancelar</button>
+        >Cancel</button>
         <button
           type="submit"
           className="TodoForm-button TodoForm-button--add"
-        >Añadir</button>
+        >Add</button>
       </div>
     </form>
   );
