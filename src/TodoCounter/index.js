@@ -6,9 +6,9 @@ function TodoCounter({totalTodos, completedTodos}) {
     return (
         <h1 className="TodoCounter">
             You have completed
-            <span>{completedTodos}</span>
+            <span> {completedTodos} </span>
             of
-            <span>{totalTodos}</span>
+            <span> {totalTodos} </span>
             TODO's
         </h1>
     );
